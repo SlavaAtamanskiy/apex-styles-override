@@ -4,7 +4,12 @@
 }
 .t-Form-fieldContainer--floatingLabel .apex-item-select, .t-Form-fieldContainer--floatingLabel .apex-item-text, .t-Form-fieldContainer--floatingLabel .apex-item-textarea {
     min-height: 3.8rem!important;
+    padding: 1.5rem .8rem .6rem!important;
 }
 .t-Form-fieldContainer--floatingLabel .apex-item-display-only {
     min-height: 3.8rem!important;
+}
+
+.t-Form-fieldContainer--floatingLabel .apex-item-select[size="1"] {
+    max-height: 3.8rem!important;
 }
