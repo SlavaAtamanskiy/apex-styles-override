@@ -1,0 +1,9 @@
+.t-Form-fieldContainer--floatingLabel {
+  .t-Form-fieldContainer {
+      padding-top:0!important;
+      padding-bottom:0!important;
+  }
+  .apex-item-select, .apex-item-text, .apex-item-textarea, .apex-item-display-only {
+      min-height:3.8rem!important;
+  }
+}
