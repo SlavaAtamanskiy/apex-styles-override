@@ -6,10 +6,19 @@
     min-height: 3.8rem!important;
     padding: 1.5rem .8rem .2rem!important;
 }
-.t-Form-fieldContainer--floatingLabel .apex-item-display-only {
-    min-height: 3.8rem!important;
-}
 
 .t-Form-fieldContainer--floatingLabel .apex-item-select[size="1"] {
     max-height: 3.8rem!important;
+}
+
+.t-Form-fieldContainer--floatingLabel .apex-item-display-only {
+    display: block;
+    width: 100%;
+    padding: 1.5rem .8rem .2rem!important;
+    border-radius: .2rem;
+    flex-grow: 0;
+    line-height: 2rem;
+    font-weight: 400;
+    border: 1px solid;
+    min-height: 3.8rem!important;
 }
