@@ -42,3 +42,12 @@
     display: inherit;
     font-weight: inherit;
 }
+
+//Interactive report table rows
+.t-fht-tbody a {
+    color: #404040;
+}
+
+.t-fht-tbody tr {
+    cursor: pointer;
+}
